@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python -m md2notion 9e74825c847af22be4c0cb161f79e7c0f4463402c9be8049a2414edff4e5c1a7ca13a1063609bdb4f7ffe44add09bbc35d3af31bc8edc57af1b1232a6373811ec54a7ea83eb161d0a98007dfab17 https://www.notion.so/MailBox-d41e0a0b33804406af0b49c715406d33 /home/empathy/bj/MailBox/*.md
