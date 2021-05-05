@@ -4,5 +4,5 @@ if [ $res != "" ]; then
 	echo "![]($res)" | xclip -sel clip
 	notify-send "Img Uploaded"
 else
-	notify-send "Failed"
+	notify-send "Failed checkout ~/.picgo/picgo.log"
 fi
