@@ -24,8 +24,8 @@ picom -b
 nm-applet & 
 
 #scientific network
-# qv2ray &
-~/bin/ssr-linux.AppImage &
+qv2ray &
+#~/bin/ssr-linux.AppImage &
 
 #minotor
 xrandr --output HDMI-1-0 --mode 2560x1440 --rate 74.97 --pos 0x0 --rotate normal --output eDP1 --primary --mode 1920x1080 --rate 144.00 --pos 2560x360 --rotate normal 
@@ -51,6 +51,7 @@ fcitx5 & sleep 2
 #file manager
 pcmanfm -d &
 thunar --daemon &
+dolphin --daemon &
 
 #volume and backlight
 xfce4-volumed-pulse &
@@ -66,4 +67,4 @@ emacs --daemon &
 kdeconnect-indicator &
 
 #key
-sxhkd &
+#sxhkd &
